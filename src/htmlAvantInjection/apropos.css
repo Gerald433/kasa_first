@@ -1,0 +1,164 @@
+@import 'reset.css';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+.site {
+    margin: 30px;
+    max-width: 1440px;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/*  */
+/* header */
+/*  */
+header {
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.navClass {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 96, 96);
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.link:hover {
+    text-decoration-line: underline;
+}
+
+/*  */
+/* header */
+/*  */
+
+/*  */
+/* Section pubSite */
+/*  */
+.pubSiteSection {
+
+    margin-bottom: 43px;
+    margin-top: 30px;
+}
+
+.photoPubSite {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 5/1;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
+    filter: brightness(0.7);
+    object-fit: cover;
+}
+
+/*  */
+/* Section pubSite */
+/*  */
+
+/*  */
+/* Section quality */
+/*  */
+
+.quality {
+    justify-content: center;
+}
+
+
+article {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1023px;
+
+
+}
+
+.themes {
+    background-color: rgb(255, 96, 96);
+    border-radius: 5px;
+    color: white;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    font-weight: 400;
+}
+
+.textThemes {
+    color: rgb(255, 96, 96);
+    background-color: rgb(246, 246, 246);
+    font-weight: 400;
+    padding: 36px 27px 19px 18px;
+}
+
+.themes,
+.textThemes {
+    font-size: 24px;
+}
+
+
+.arrow {
+    width: 20px;
+    color: blue;
+}
+
+
+
+
+/*  */
+/* Section quality */
+/*  */
+
+/*  */
+/* Footer */
+/*  */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: black;
+    height: 209px;
+    color: white;
+}
+
+.footerLogo {
+    background-color: black;
+    margin: 0 0 0 0;
+    z-index: 2;
+    background-color: black;
+    filter: brightness(1);
+    width: 130px;
+    padding-bottom: 20px;
+}
+
+.copyrightFooter {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/*  */
+/* Footer */
+/*  */
