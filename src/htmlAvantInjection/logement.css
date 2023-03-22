@@ -1,0 +1,496 @@
+@import 'reset.css';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+.site {
+    margin: 30px;
+    max-width: 1440px;
+
+    color: rgb(255, 96, 96);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/*  */
+/* header */
+/*  */
+header {
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.navClass {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 96, 96);
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/*  */
+/* header */
+/*  */
+/*  */
+/* main */
+/*  */
+
+.photo {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    /* aspect-ratio: 5/1; */
+    border-radius: 25px;
+    font-size: 48px;
+    background-color: rgb(0, 0, 0);
+    object-fit: cover;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+.titlePrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 500;
+    Line-height: 51.34px;
+}
+
+
+.autor {
+    width: 100px;
+    Line-height: 25.67px;
+
+}
+
+.disc {
+    width: 64px;
+}
+
+
+.greyPoint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.city {
+    margin-bottom: 25px;
+}
+
+
+.autor,
+.city {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.global {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+
+.localisation {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.renseignements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.advantageList {
+    width: 360px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage {
+    display: flex;
+    width: 115px;
+    height: 25px;
+    background-color: rgb(255, 96, 96);
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.starOff {
+    width: 30px;
+}
+
+.note {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.descriptionEquipements {
+    display: flex;
+
+    justify-content: space-between;
+    font-size: 24px;
+    gap: 30px;
+    margin-bottom: 100px;
+
+
+
+
+}
+
+
+
+
+
+
+details {
+    width: 850px;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    color: rgb(255, 96, 96);
+    background-color: rgb(246, 246, 246);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+summary {
+    padding: 0px 33px 0px 18px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 96, 96);
+    border-radius: 10px;
+    color: white;
+    height: 52px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+
+
+
+}
+
+
+summary::after {
+    display: flex;
+    margin-left: 1ch;
+
+    transition: 0.1s;
+    content: url("/src/assets/littleArrow.svg");
+}
+
+details[open] summary::after {
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+.accordeonText {
+
+    padding: 0px 27px 19px 18px;
+    line-height: 34.22px;
+
+
+
+}
+
+.equipementList {
+    line-height: 34.22px;
+}
+
+
+
+/*  */
+/* main */
+/*  */
+/*  */
+
+/* Footer */
+/*  */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: black;
+    height: 209px;
+    color: white;
+}
+
+.footerLogo {
+    width: 130px;
+    padding-bottom: 20px;
+}
+
+.copyrightFooter {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/*  */
+/* Footer */
+/*  */
+/*  */
+/* Footer */
+/*  */
+
+
+
+
+
+
+
+/*  */
+/*  */
+/* responsive */
+/*  */
+/*  */
+
+@media screen and (max-width: 1140px) {}
+
+
+
+
+@media screen and (max-width: 950px) {
+
+
+    /* header */
+    .link {
+        text-decoration: none;
+        color: rgb(255, 96, 96);
+        /* font-size: 20px; */
+    }
+
+    .global {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .localisation {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 10px;
+
+
+    }
+
+    .listStarOff {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .descriptionEquipements {
+        flex-direction: column;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    details {
+        width: 100%;
+    }
+
+    summary {
+        max-width: 100%;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 615px) {
+
+    /* header */
+    .logoPrincipal {
+        width: 170px
+    }
+
+
+    .photo {
+        border-radius: 10px;
+        height: 255px;
+    }
+
+    .link {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+
+
+
+
+
+    /* footer */
+    footer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyrightFooter {
+        font-size: 12px;
+    }
+
+
+}
+
+@media screen and (max-width: 479px) {
+
+    .site {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+
+    /* header */
+
+
+
+    .pubSiteSection {
+
+
+        margin-top: 15px;
+    }
+
+
+    .autor {
+        font-size: 12px;
+    }
+
+    .starOff {
+        width: 15px;
+    }
+
+    .disc {
+        width: 32px;
+    }
+
+    .note {
+        width: 70%;
+    }
+
+
+    .titlePrincipal {
+        font-size: 18px;
+        line-height: 25.67px;
+    }
+
+    .advantageList {
+        width: 260px;
+    }
+
+    .advantage {
+        font-size: 10px;
+        width: 84px;
+        height: 18px;
+        gap: 10px;
+    }
+
+
+
+    .note {
+        flex-direction: column;
+    }
+
+    .advantageList {
+        width: 230px;
+        gap: 5px;
+    }
+
+    summary {
+        font-size: 13px;
+        height: 30px;
+    }
+
+    .accordeonText,
+    .equipementList {
+        font-size: 12px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 407px) {
+
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .link {
+        margin-left: 0px;
+    }
+
+    .navClass {
+        max-width: 190px;
+        justify-content: space-around;
+    }
+}
+
+
+
