@@ -7,7 +7,6 @@
 .site {
     margin: 30px;
     max-width: 1440px;
-
 }
 
 body {
@@ -55,6 +54,7 @@ header {
 /*  */
 /* Section pubSite */
 /*  */
+
 .pubSiteSection {
 
     margin-bottom: 20px;
@@ -79,10 +79,6 @@ header {
 /* Section quality */
 /*  */
 
-
-
-
-
 .quality {
     flex-direction: column;
     align-items: center;
@@ -95,16 +91,7 @@ header {
 .containerGlobal {
     display: flex;
     justify-content: center;
-
-
 }
-
-
-
-
-
-
-
 
 details {
     max-width: 1023px;
@@ -114,8 +101,6 @@ details {
     color: rgb(255, 96, 96);
     background-color: rgb(246, 246, 246);
     font-weight: 400;
-
-
 }
 
 summary {
@@ -129,16 +114,11 @@ summary {
     height: 47px;
     align-items: center;
     font-weight: 400;
-
-
-
 }
-
 
 summary::after {
     display: flex;
     margin-left: 1ch;
-
     transition: 0.1s;
     content: url("/src/assets/littleArrow.svg");
 }
@@ -152,8 +132,6 @@ details[open] summary::after {
     line-height: 34.22px;
 }
 
-
-
 /*  */
 /* Section quality */
 /*  */
@@ -161,6 +139,7 @@ details[open] summary::after {
 /*  */
 /* Footer */
 /*  */
+
 footer {
     display: flex;
     flex-direction: column;
@@ -213,16 +192,11 @@ footer {
         width: 800px;
     }
 
-
-
-
 }
 
 
 
-
 @media screen and (max-width: 950px) {
-
 
     /* header */
     .link {
@@ -242,9 +216,6 @@ footer {
     .quality {
         width: 100%;
     }
-
-
-
 
 }
 
@@ -286,7 +257,6 @@ footer {
         line-height: 17.11px;
     }
 
-
     /* footer */
     footer {
         justify-content: center;
@@ -296,8 +266,6 @@ footer {
     .copyrightFooter {
         font-size: 12px;
     }
-
-
 }
 
 @media screen and (max-width: 479px) {
@@ -307,8 +275,6 @@ footer {
         margin-right: 20px;
     }
 
-
-
     /* header */
 
     /* .photoPubSite {
@@ -317,36 +283,30 @@ footer {
     } */
 
     .pubSiteSection {
-
-
         margin-top: 15px;
     }
+}
 
 
-    @media screen and (max-width: 407px) {
 
+@media screen and (max-width: 407px) {
 
-        header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-        }
-
-        .link {
-            margin-left: 0px;
-        }
-
-        .navClass {
-            max-width: 190px;
-            justify-content: space-around;
-        }
-
-
-        .quality{
-            gap: 20px;
-        }
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
+    .link {
+        margin-left: 0px;
+    }
 
+    .navClass {
+        max-width: 190px;
+        justify-content: space-around;
+    }
+
+    .quality {
+        gap: 20px;
+    }
 }

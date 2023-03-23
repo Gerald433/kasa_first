@@ -15,16 +15,10 @@ body {
     font-weight: 500;
 }
 
-
-
-
-
-
-
-
 /*  */
 /* header */
 /*  */
+
 header {
     /* border: solid 1px black; */
     display: flex;
@@ -44,10 +38,6 @@ header {
     padding-inline-start: 0;
 }
 
-
-
-
-
 .link {
     text-decoration: none;
     color: rgb(255, 96, 96);
@@ -56,10 +46,6 @@ header {
     flex-wrap: nowrap;
 }
 
-
-
-
-
 .link:hover {
     text-decoration-line: underline;
 }
@@ -67,15 +53,16 @@ header {
 .linkToAccueil {
     color: rgb(255, 96, 96);
     font-size: 24px;
-
 }
 
 /*  */
 /* header */
 /*  */
+
 /*  */
 /* main */
 /*  */
+
 section {
     display: flex;
     flex-direction: column;
@@ -91,7 +78,6 @@ h1 {
 h2 {
     font-size: 36px;
     line-height: 142.6%;
-
 }
 
 h3 {
@@ -103,6 +89,7 @@ h3 {
 /*  */
 /* main */
 /*  */
+
 /*  */
 /* Footer */
 /*  */
@@ -139,8 +126,6 @@ footer {
 
 
 
-
-
 /*  */
 /*  */
 /* responsive */
@@ -148,8 +133,6 @@ footer {
 /*  */
 
 @media screen and (max-width: 950px) {
-
-
 
     h1 {
         font-size: 200px;
@@ -167,7 +150,6 @@ footer {
 
     }
 
-
     .linkToAccueil {
         font-size: 18px;
     }
@@ -175,11 +157,10 @@ footer {
 
 
 @media screen and (max-width: 615px) {
+
     .logoPrincipal {
         width: 170px
     }
-
-  
 
     .link {
         font-size: 12px;
@@ -216,6 +197,8 @@ footer {
 
 }
 
+
+
 /* @media screen and (max-width: 479px) {
     header {
         display: flex;
@@ -223,18 +206,16 @@ footer {
         align-items: center;
         justify-content: space-between;
     }
-
-   
-
-
 } */
 
+
+
 @media screen and (max-width: 407px) {
+
     header {
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 
     .link {
