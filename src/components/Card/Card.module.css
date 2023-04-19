@@ -1,0 +1,184 @@
+
+
+.site {
+    margin: 30px;
+    max-width: 1440px;
+    color: rgb(255, 96, 96);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+/* main */
+/*  */
+
+
+
+
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+.titlePrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 500;
+    Line-height: 51.34px;
+    padding-top: 5px;
+}
+
+.autor {
+    width: min-content;
+    Line-height: 25.67px;
+    text-align: right;
+}
+
+.disc {
+    width: 64px;
+}
+
+.greyPoint {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city {
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+
+.autor,
+.city {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.global {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+.localisation {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.renseignements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.starOff {
+    width: 30px;
+}
+
+.note {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/*  */
+/*  */
+/* responsive */
+/*  */
+/*  */
+
+@media screen and (max-width: 950px) {
+
+   
+
+    .global {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .localisation {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .listStarOff {
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+
+}
+
+
+
+@media screen and (max-width: 479px) {
+
+    .site {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    
+
+    .autor {
+        width: 50px;
+        font-size: 12px;
+        line-height: 17.11px;
+    }
+
+    .city {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .starOff {
+        width: 15px;
+    }
+
+    .disc {
+        width: 32px;
+    }
+
+    
+    .titlePrincipal {
+        font-size: 18px;
+        line-height: 25.67px;
+    }
+
+    .greyPoint {
+        width: 110px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 407px) {
+
+    .titlePrincipal {
+        width: 80%;
+        flex-wrap: wrap;
+    }
+}

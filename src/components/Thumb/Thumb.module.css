@@ -1,0 +1,107 @@
+
+.site {
+    margin: 30px;
+    max-width: 1440px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+.card {
+    display: flex;
+    width: 30%;
+    height: auto;
+    aspect-ratio: 100/100;
+    border-radius: 10px;
+    color: white;
+    background: rgb(255, 0, 0) linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    overflow: hidden;
+}
+
+
+.card img{
+    width: 100%;
+   
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+
+.containerItems {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    object-fit: contain;
+}
+
+.itemTitle {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 0 20px 20px;
+    line-height: 30px;
+    position: absolute;
+    z-index: 1;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+/*  */
+/* Section cardTable */
+/*  */
+
+
+
+
+
+
+
+/*  */
+/*  */
+/* responsive */
+/*  */
+/*  */
+
+@media screen and (max-width: 950px) {
+
+ 
+
+    .card {
+        width: 47%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 479px) {
+
+    .site {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+   
+    .card {
+        width: 100%;
+        aspect-ratio: 1.4/1;
+    }
+}
+
+
+

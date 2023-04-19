@@ -1,0 +1,95 @@
+
+
+.site {
+    margin: 30px;
+    max-width: 1440px;
+    color: rgb(255, 96, 96);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+.advantageList {
+    width: 360px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantage {
+    display: flex;
+    width: 115px;
+    height: 25px;
+    background-color: rgb(255, 96, 96);
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.note {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*  */
+/* Footer */
+/*  */
+
+
+
+
+/*  */
+/*  */
+/* responsive */
+/*  */
+/*  */
+
+@media screen and (max-width: 479px) {
+
+    .site {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* header */
+
+
+    .note {
+        width: 70%;
+    }
+
+    .titlePrincipal {
+        font-size: 18px;
+        line-height: 25.67px;
+    }
+
+    .advantageList {
+        width: 260px;
+    }
+
+    .advantage {
+        font-size: 10px;
+        width: 84px;
+        height: 18px;
+        gap: 10px;
+    }
+
+    .note {
+        flex-direction: column;
+    }
+
+    .advantageList {
+        width: 230px;
+        gap: 5px;
+    }
+
+   
+
+}

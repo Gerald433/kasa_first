@@ -1,0 +1,126 @@
+
+.site {
+    margin: 30px;
+    max-width: 1440px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+/*  */
+/* Section pubSite */
+/*  */
+
+.pubSiteSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 223px; */
+    margin-bottom: 43px;
+    margin-top: 30px;
+}
+
+.titlePubSite {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.photoPubSite {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 5/1;
+    border-radius: 25px;
+    font-size: 48px;
+    background-color: rgb(0, 0, 0);
+    filter: brightness(0.7);
+    object-fit: cover;
+}
+
+
+/*  */
+/* Section pubSite */
+/*  */
+
+
+
+
+/*  */
+/*  */
+/* responsive */
+/*  */
+/*  */
+
+@media screen and (max-width: 950px) {
+
+
+    .pubSiteSection {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .titlePubSite {
+        font-size: 30px;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 615px) {
+
+   
+
+    .pubSiteSection {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .photoPubSite {
+        border-radius: 10px;
+    }
+
+    .titlePubSite {
+        font-size: 24px;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 479px) {
+
+    .site {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .photoPubSite {
+        margin-top: 80px;
+        height: 100px;
+    }
+
+    .pubSiteSection {
+        height: 0;
+        margin-bottom: 43px;
+        margin-top: 15px;
+    }
+
+    .titlePubSite {
+        display: flex;
+        flex-wrap: wrap;
+        width: 250px;
+        padding-top: 80px;
+    }
+
+    
+}
+
+
+
